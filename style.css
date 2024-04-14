@@ -17,6 +17,7 @@
     /* Neutral */
 
     --Dark_gray: hsl(0, 0%, 59%);
+    --Light_gray: hsla(0, 0%, 59%, 0.3);
 }
 
 body {
@@ -60,6 +61,8 @@ body {
     align-items: center;
     gap: 10px;
     flex-direction: column;
+    border-bottom: 1px solid var(--Light_gray);
+    padding-bottom: 25px
 }
 
 #card-bg {
