@@ -10,13 +10,13 @@
 :root {
     /* Primary */
 
---Dark_cyan: hsl(185, 75%, 39%);
---Very_dark_desaturated_blue: hsl(229, 23%, 23%);
---Dark_grayish_blue: hsl(227, 10%, 46%);
+    --Dark_cyan: hsl(185, 75%, 39%);
+    --Very_dark_desaturated_blue: hsl(229, 23%, 23%);
+    --Dark_grayish_blue: hsl(227, 10%, 46%);
 
-/* Neutral */
+    /* Neutral */
 
---Dark_gray: hsl(0, 0%, 59%);
+    --Dark_gray: hsl(0, 0%, 59%);
 }
 
 body {
@@ -41,7 +41,6 @@ body {
     bottom: -631px;
     right: -251px;
 }
-
 
 .card {
     position: relative;
@@ -70,7 +69,6 @@ body {
 }
 
 #person {
-    /* width: 100px; */
     border-radius: 50%;
     border: 4px solid white;
     margin-top: -54px;
@@ -82,10 +80,12 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .profile p {
     font-weight: 400;
     color: var(--Dark_grayish_blue);
 }
+
 .name p {
     color: var(--Dark_grayish_blue);
     font-weight: 700;
@@ -96,6 +96,7 @@ hr {
     height: 1px;
     background: var(--Dark_gray);
 }
+
 .show {
     display: flex;
     justify-content: space-around;
@@ -103,9 +104,11 @@ hr {
     text-align: center;
 }
 
-.one, .two, .three {
+.one,
+.two,
+.three {
     line-height: 1.5;
-    
+
 }
 
 .show p {
@@ -113,10 +116,12 @@ hr {
     color: var(--Dark_grayish_blue);
 }
 
+
 @media screen and (max-width: 550px) {
     #bg-img1 {
         left: -91vw;
     }
+
     #bg-img2 {
         right: -91vw;
     }
